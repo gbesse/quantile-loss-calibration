@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Diagnostiquer les quantiles croisés et leur perte asymétrique', 'en': 'Diagnose crossing quantiles and asymmetric loss', 'es': 'Diagnosticar cuantiles cruzados y pérdida asimétrica'}

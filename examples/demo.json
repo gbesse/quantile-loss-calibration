@@ -1,0 +1,27 @@
+{
+  "quantiles": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "cases": [
+    {
+      "id": "a",
+      "actual": 10,
+      "predictions": [
+        8,
+        10,
+        12
+      ]
+    },
+    {
+      "id": "b",
+      "actual": 10,
+      "predictions": [
+        12,
+        10,
+        8
+      ]
+    }
+  ]
+}

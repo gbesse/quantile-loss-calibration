@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quantile-loss-calibration"
+version = "0.1.0a1"
+description = "FR: Diagnostiquer les quantiles croisés et leur perte asymétrique | EN: Diagnose crossing quantiles and asymmetric loss | ES: Diagnosticar cuantiles cruzados y pérdida asimétrica"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+quantile-loss-calibration = "quantile_loss_calibration.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["quantile_loss_calibration*"]
